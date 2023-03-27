@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote 
+    name="derp"
+    fetch="https://github.com/DerpFest-AOSP"
+    revision="16" />
+
+  <remote
+    name="derp-devices"
+    fetch="https://github.com/DerpFest-Devices"
+    revision="16" />
+
+  <remote
+    name="gitlab"
+    fetch="https://gitlab.com/" />
+
+  <remote
+    name="derp-gitlab"
+    fetch="https://gitlab.com/DerpFest"
+    revision="15.2" />
+
+  <project path="android" name="android_manifest" remote="derp" />
+
+  <project path="art" name="android_art" remote="derp" />
+
+  <project path="bionic" name="android_bionic" remote="derp" />
+
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk-cw" remote="derp" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="derp" />
+
+  <project path="build/make" name="android_build" remote="derp" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="derp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="derp" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="derp" />
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="derp" revision="15" />
+
+  <project path="device/lineage/sepolicy" name="android_device_derpfest_sepolicy" remote="derp" />
+
+  <project path="frameworks/av" name="android_frameworks_av" remote="derp" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="derp" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="derp" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="derp" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="derp" />
+
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="derp" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="derp" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="derp" />
+
+  <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="derp" />
+
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="derp" />
+
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="derp" />
+  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="derp" />
+  <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="derp" />
+  <project path="packages/apps/Settings/DerpFestCustomizations" name="android_packages_apps_DerpFestCustomizations" remote="derp" />
+  <project path="packages/apps/DerpWalls" name="packages_apps_DerpWalls" remote="derp" revision="15" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="derp" />
+  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="derp" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="derp" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="derp" />
+  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="derp" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="derp" />
+  <project path="packages/apps/MikuUILyricsStubDummy" name="packages_apps_MikuUILyricsStubDummy" remote="derp" revision="15" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="derp" revision="15" />
+  <project path="packages/apps/Panic" name="packages_apps_Panic" remote="derp" revision="15" />
+  <project path="packages/apps/Prospect" name="android_packages_apps_Prospect" remote="derp" />
+  <project path="packages/apps/Ripple" name="packages_apps_Ripple" remote="derp" revision="15" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="derp" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="derp" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="derp" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="derp" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="derp" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="derp" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="derp" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="derp" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/services/DeviceAsWebcam" name="android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/services/SmartSpace" name="android_packages_services_SmartSpace" remote="derp" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+
+  <project path="system/apex" name="android_system_apex" groups="pdk" remote="derp" />
+  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="derp" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="derp" />
+  <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="derp" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk,sysui-studio" remote="derp" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="derp" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="derp" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="derp" />
+
+  <project path="vendor/certification" name="android_vendor_certification" remote="derp" />
+  <project path="vendor/lineage" name="android_vendor_derpfest" remote="derp" />
+  <project path="vendor/fontage" name="vendor_fontage" remote="derp" />
+  <project path="vendor/google/prebuilt" name="DerpFest/vendor_google_prebuilt" remote="gitlab" revision="15" />
+  <project path="vendor/google/gms" name="DerpFest/vendor_google_gms" remote="gitlab" revision="16" clone-depth="1" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="derp" clone-depth="1" />
+  <project path="vendor/overlay" name="android_vendor_overlay" remote="derp" />
+  <project path="vendor/support" name="android_vendor_support" remote="derp" />
+
+</manifest>
