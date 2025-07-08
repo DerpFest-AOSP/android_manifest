@@ -1,4 +1,8 @@
-[<center><img src="https://raw.github.com/DerpFest-AOSP/android_manifest/16/derpfest.png" height="50%" width="50%;" /></center>](https://github.com/DerpFest-AOSP)
+<div align="center">
+  <a href="https://github.com/DerpFest-LOS">
+    <img src="https://raw.github.com/DerpFest-LOS/android_manifest/15.2/derpfest.png" width="50%" />
+  </a>
+</div>
 
 DerpFest x Lineage
 ------------------
