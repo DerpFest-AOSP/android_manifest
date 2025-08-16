@@ -3,7 +3,7 @@
 
   <remote 
     name="derp"
-    fetch="ssh://git@github.com/DerpFest-AOSP"
+    fetch="https://github.com/DerpFest-AOSP"
     revision="16" />
 
   <remote
