@@ -3,7 +3,7 @@
 
   <remote 
     name="derp"
-    fetch="https://github.com/DerpFest-AOSP"
+    fetch="ssh://git@github.com/DerpFest-AOSP"
     revision="16.2" />
 
   <remote
@@ -26,7 +26,7 @@
     fetch="https://gitlab.com/DerpFest"
     revision="16.2" />
 
-  <project path="android" name="android_manifest" remote="derp" />
+  <project path="android" name="android_manifest" remote="derp" revision="16.2-priv" />
 
   <project path="art" name="android_art" remote="derp" />
 
@@ -58,7 +58,7 @@
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="derp" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="qpr2_frameworks_base" remote="derp" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="derp" />
   <project path="frameworks/native" name="android_frameworks_native" remote="derp" />
 
@@ -67,18 +67,19 @@
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="derp" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_DerpLauncher" remote="derp" />
   <project path="packages/apps/DerpWalls" name="android_packages_apps_DerpWalls" remote="derp" />
-  <project path="packages/apps/DerpFestParts" name="android_packages_apps_DerpFestParts" remote="derp" />
+  <project path="packages/apps/DerpFestParts" name="priv_android_packages_apps_DerpFestParts" remote="derp" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="derp" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="derp" />
   <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="derp" />
+  <project path="packages/apps/LMOSystemUIClock" name="priv_android_packages_apps_LMOSystemUIClock" remote="derp" />
   <project path="packages/apps/MikuUILyricsStubDummy" name="android_packages_apps_MikuUILyricsStubDummy" remote="derp" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="derp" />
   <project path="packages/apps/Panic" name="android_packages_apps_Panic" remote="derp" />
   <project path="packages/apps/Prospect" name="android_packages_apps_Prospect" remote="derp" revision="16" />
   <project path="packages/apps/Ripple" name="android_packages_apps_Ripple" remote="derp" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="derp" />
-  <project path="packages/apps/Settings/DerpFestCustomizations" name="android_packages_apps_DerpFestCustomizations" remote="derp" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="derp" />
+  <project path="packages/apps/Settings" name="qpr2_packages_apps_Settings" remote="derp" />
+  <project path="packages/apps/Settings/DerpFestCustomizations" name="priv_android_packages_apps_DerpFestCustomizations" remote="derp" />
+  <project path="packages/apps/ThemePicker" name="priv_android_packages_apps_ThemePicker" remote="derp" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="derp" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="derp" />
@@ -96,7 +97,7 @@
   <project path="vendor/certification" name="android_vendor_certification" remote="derp" revision="16" />
   <project path="vendor/fontage" name="android_vendor_fontage" remote="derp" />
   <project path="vendor/gms" name="DerpFest-AOSP/android_vendor_gms" remote="codeberg" revision="16.2" clone-depth="1" />
-  <project path="vendor/lineage" name="android_vendor_derpfest" remote="derp" />
+  <project path="vendor/lineage" name="priv_android_vendor_derpfest" remote="derp" />
   <project path="vendor/overlay" name="android_vendor_overlay" remote="derp" />
   <project path="vendor/support" name="android_vendor_support" remote="derp" />
 
