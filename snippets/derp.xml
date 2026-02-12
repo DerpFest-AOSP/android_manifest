@@ -64,8 +64,8 @@
 
   <project path="lineage-sdk" name="android_lineage-sdk" remote="derp" />
 
-  <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="derp" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_DerpLauncher" remote="derp" />
+  <project path="packages/apps/ColumbusService" name="priv_android_packages_apps_ColumbusService" remote="derp" />
+  <project path="packages/apps/Launcher3" name="priv_android_packages_apps_DerpLauncher" remote="derp" />
   <project path="packages/apps/DerpWalls" name="android_packages_apps_DerpWalls" remote="derp" />
   <project path="packages/apps/DerpFestParts" name="priv_android_packages_apps_DerpFestParts" remote="derp" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="derp" />
