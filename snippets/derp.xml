@@ -38,11 +38,22 @@
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="derp" />
 
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="derp" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" groups="pdk" remote="derp" />
   <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="derp" />
+  <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="derp" />
+  <project path="external/libcupsfilters" name="android_external_libcupsfilters" groups="pdk" remote="derp" />
+  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="derp" />
+  <project path="external/libjxl" name="android_external_libjxl" groups="pdk" remote="derp" />
+  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="derp" />
+  <project path="external/libppd" name="android_external_libppd" groups="pdk" remote="derp" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="derp" />
 
   <project path="device/lineage/sepolicy" name="android_device_derpfest_sepolicy" remote="derp" />
 
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="derp" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="derp" />
+  <project path="hardware/nxp/secure_element" name="android_hardware_nxp_secure_element" groups="pdk" remote="derp" />
+  <project path="hardware/st/nfc" name="android_hardware_st_nfc" groups="pdk" remote="derp" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="derp" />
   <project path="frameworks/base" name="android_frameworks_base" remote="derp" />
@@ -53,6 +64,7 @@
 
   <project path="packages/apps/ThemeStore" name="android_packages_apps_ThemeStore" remote="derp" />
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="derp" />
+  <project path="packages/apps/ContactsPicker" name="android_packages_apps_ContactsPicker" groups="pdk-fs" remote="derp" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_DerpLauncher" remote="derp" />
   <project path="packages/apps/DerpWalls" name="android_packages_apps_DerpWalls" remote="derp" />
   <project path="packages/apps/DerpFestParts" name="android_packages_apps_DerpFestParts" remote="derp" />
@@ -68,14 +80,19 @@
   <project path="packages/apps/Settings/DerpFestCustomizations" name="android_packages_apps_DerpFestCustomizations" remote="derp" />
   <project path="packages/apps/Smartspacer" name="android_packages_apps_Smartspacer" remote="derp" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="derp" />
+  <project path="packages/apps/TV" name="android_packages_apps_TV" groups="pdk" remote="derp" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="derp" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="derp" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="derp" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="derp" />
+  <project path="packages/modules/Nfc" name="android_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="derp" />
+  <project path="packages/modules/Uwb" name="android_packages_modules_Uwb" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="derp" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="derp" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="derp" />
 
