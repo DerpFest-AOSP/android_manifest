@@ -98,6 +98,7 @@
 
   <project path="system/bpf" name="android_system_bpf" remote="derp" />
   <project path="system/core" name="android_system_core" remote="derp" />
+  <project path="system/fs/fs_mgr" name="android_system_fs_fs_mgr" groups="pdk" remote="derp" />
   <project path="system/memory/libmeminfo" name="android_system_memory_libmeminfo" remote="derp" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="derp" />
   <project path="system/update_engine" name="android_system_update_engine" remote="derp" />
