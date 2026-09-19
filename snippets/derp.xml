@@ -79,6 +79,8 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="derp" />
   <project path="packages/apps/Settings/DerpFestCustomizations" name="android_packages_apps_DerpFestCustomizations" remote="derp" />
   <project path="packages/apps/Smartspacer" name="android_packages_apps_Smartspacer" remote="derp" />
+  <project path="packages/apps/SystemUIFundamental" name="android_packages_apps_SystemUIFundamental" remote="derp" />
+  <project path="packages/apps/DerpFestClocks" name="android_packages_apps_DerpFestClocks" remote="derp" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="derp" />
   <project path="packages/apps/TV" name="android_packages_apps_TV" groups="pdk" remote="derp" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="derp" />
