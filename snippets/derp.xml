@@ -59,6 +59,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="derp" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="derp" />
   <project path="frameworks/native" name="android_frameworks_native" remote="derp" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="derp" />
 
   <project path="lineage-sdk" name="android_lineage-sdk" remote="derp" />
 
