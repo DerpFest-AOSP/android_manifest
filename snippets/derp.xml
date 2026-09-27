@@ -74,7 +74,6 @@
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="derp" />
   <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="derp" />
   <project path="packages/apps/LMOSystemUIClock" name="android_packages_apps_LMOSystemUIClock" remote="derp" />
-  <project path="packages/apps/LyricFetchExt" name="android_packages_apps_LyricFetchExt" remote="derp" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="derp" />
   <project path="packages/apps/Prospect" name="android_packages_apps_Prospect" remote="derp" revision="16" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="derp" />
