@@ -52,6 +52,7 @@
 
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="derp" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="derp" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="derp" />
   <project path="hardware/nxp/secure_element" name="android_hardware_nxp_secure_element" groups="pdk" remote="derp" />
   <project path="hardware/st/nfc" name="android_hardware_st_nfc" groups="pdk" remote="derp" />
 
