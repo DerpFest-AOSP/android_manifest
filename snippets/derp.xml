@@ -64,6 +64,7 @@
 
   <project path="lineage-sdk" name="android_lineage-sdk" remote="derp" />
 
+  <project path="packages/apps/AccessCard" name="android_packages_apps_AccessCard" remote="derp" />
   <project path="packages/apps/ThemeStore" name="android_packages_apps_ThemeStore" remote="derp" />
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="derp" />
   <project path="packages/apps/ContactsPicker" name="android_packages_apps_ContactsPicker" groups="pdk-fs" remote="derp" />
