@@ -109,6 +109,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="derp" />
   <project path="system/update_engine" name="android_system_update_engine" remote="derp" />
 
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" groups="qcom,kaanapali-vendor" remote="derp" />
+
   <project path="vendor/certification" name="android_vendor_certification" remote="derp" />
   <project path="vendor/fontage" name="android_vendor_fontage" remote="derp" />
   <project path="vendor/lineage" name="android_vendor_derpfest" remote="derp" />
