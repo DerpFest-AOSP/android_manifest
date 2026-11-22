@@ -46,6 +46,7 @@
   <project path="external/libjxl" name="android_external_libjxl" groups="pdk" remote="derp" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="derp" />
   <project path="external/libppd" name="android_external_libppd" groups="pdk" remote="derp" />
+  <project path="external/llama.cpp" name="android_external_llama.cpp" remote="derp" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="derp" />
 
   <project path="device/lineage/sepolicy" name="android_device_derpfest_sepolicy" remote="derp" />
@@ -71,6 +72,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_DerpLauncher" remote="derp" />
   <project path="packages/apps/DerpWalls" name="android_packages_apps_DerpWalls" remote="derp" />
   <project path="packages/apps/DerpFestParts" name="android_packages_apps_DerpFestParts" remote="derp" />
+  <project path="packages/apps/DerpSummarizer" name="android_packages_apps_DerpSummarizer" remote="derp" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="derp" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="derp" />
